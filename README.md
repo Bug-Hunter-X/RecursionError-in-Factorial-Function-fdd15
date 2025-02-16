@@ -1,0 +1,3 @@
+# RecursionError in Python Factorial Function
+
+This repository demonstrates a common error in recursive functions: the lack of a base case for negative inputs, leading to a `RecursionError`. The `factorial` function is correctly defined for non-negative integers but does not handle negative inputs gracefully.  The solution demonstrates how to handle this by adding input validation and returning an appropriate error message or value.
